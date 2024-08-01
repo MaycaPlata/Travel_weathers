@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Travel Weather</h1>
+    <div class="weather-input">
+      <h3>Enter a City Name</h3>
+      <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+      <h3>Select Travel Dates</h3>
+      <label for="start-date">Start Date:</label>
+      <input class="date-input" id="start-date" type="date">
+      <label for="end-date">End Date:</label>
+      <input class="date-input" id="end-date" type="date">
+      <button class="search-btn">Search</button>
+    </div>
+    <div class="weather-data">
+      <div class="current-weather">
+        <h3>Current Weather</h3>
+        <p class="temperature">Temperature: </p>
+        <p class="condition">Condition: </p>
+        <p class="humidity">Humidity: </p>
+        <p class="wind">Wind Speed: </p>
+      </div>
+      <div class="forecast">
+        <h3>Weather Forecast</h3>
+        <!-- Forecast items will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>

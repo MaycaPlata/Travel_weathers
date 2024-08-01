@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3e6f5; /* Light purple background */
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #ffffff; /* White background for container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #6a1b9a; /* Darker purple for heading */
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.weather-input {
+  margin-bottom: 20px;
+}
+
+.weather-input h3 {
+  margin: 0 0 10px;
+  color: #6a1b9a; /* Darker purple for subheadings */
+}
+
+.city-input, .date-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d1c4e9; /* Light purple border */
+  border-radius: 4px;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ab47bc; /* Medium purple background */
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #8e24aa; /* Darker purple for hover effect */
+}
+
+.weather-data {
+  margin-top: 20px;
+}
+
+.current-weather p {
+  margin: 5px 0;
+  color: #6a1b9a; /* Darker purple for text */
+}
+
+.forecast-item {
+  margin: 10px 0;
+  border: 1px solid #d1c4e9; /* Light purple border for forecast items */
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f3e6f5; /* Light purple background for forecast items */
+}
+
+.forecast-item p {
+  margin: 5px 0;
+  color: #6a1b9a; /* Darker purple for text */
+}
